@@ -10,8 +10,10 @@ function App() {
 
   return (
     <>
-      <h1>{count}</h1>
-      <button onClick={Counting}>Click button</button>
+      <div className="counter_body">
+        <h1>{count}</h1>
+        <button onClick={Counting}>counter button</button>
+      </div>
     </>
   );
 }
